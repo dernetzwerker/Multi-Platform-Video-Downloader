@@ -40,7 +40,7 @@ A **clean and optimized video downloader** for Windows 10/11 that downloads vide
 ```bash
 # Clone repository
 git clone https://github.com/dernetzwerker/Multi-Platform-Video-Downloader.git
-cd dernetzwerker
+cd Multi-Platform-Video-Downloader
 
 # Install dependencies
 pip install yt-dlp
