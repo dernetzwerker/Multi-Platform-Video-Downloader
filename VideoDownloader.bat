@@ -91,7 +91,7 @@ echo [INFO] Installing packages...
 !PYTHON_CMD! -m pip install --upgrade pip --quiet
 !PYTHON_CMD! -m pip install yt-dlp --upgrade --quiet
 
-if not exist "video_downloader_final.py" (
+if not exist "VideoDownloader.py" (
     echo [ERROR] Main file 'video_downloader_final.py' not found!
     goto :WAIT_EXIT
 )
@@ -101,7 +101,7 @@ echo [USER] dernetzwerker
 echo [TIME] %DATE% %TIME%
 echo.
 
-!PYTHON_CMD! video_downloader_final.py
+!PYTHON_CMD! VideoDownloader.py
 
 :WAIT_EXIT
 echo.
@@ -118,4 +118,5 @@ echo.
 
 echo Press any key to close window...
 pause >nul
+
 exit /b 0
