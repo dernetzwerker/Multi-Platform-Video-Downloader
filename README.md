@@ -39,7 +39,7 @@ A **clean and optimized video downloader** for Windows 10/11 that downloads vide
 ### Option 2: Manual Setup
 ```bash
 # Clone repository
-git clone https://github.com/dernetzwerker/dernetzwerker.git
+git clone https://github.com/dernetzwerker/Multi-Platform-Video-Downloader.git
 cd dernetzwerker
 
 # Install dependencies
